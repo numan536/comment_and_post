@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom';
 import {useEffect, useState} from 'react';
 import {useHistory, useParams} from 'react-router-dom';
 import signUpImage from '../images/online-registration-sign-up-with-man-sitting-near-smartphone_268404-95.jpg';
+import signinGoogle from "../images/icons8-google-plus-50.png";
 //import './stylelogin.css'
 
 const Signup = () => {
@@ -55,6 +56,7 @@ const Signup = () => {
               <button type="submit" class="btn btn-secondary">
                 Register
               </button>
+              <img src={signinGoogle} />
             </form>
           </div>
         </div>

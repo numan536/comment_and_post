@@ -12,6 +12,7 @@ import { Link } from "react-router-dom";
 import "./stylelogin.css";
 import signInImage from "../images/sign-page-abstract-concept-illustration_335657-3875.jpg";
 
+
 const Login = () => {
   return (
     <div className="main-container signIn">
@@ -48,6 +49,7 @@ const Login = () => {
                   Register
                 </button> */}
               </Link>
+              
             </form>
           </div>
         </div>
